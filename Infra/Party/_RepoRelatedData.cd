@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HW_01_Eurich_Kapitonova.Infra.Party.AddressesRepo">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Party\AddressesRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Infra.Repo&lt;TDomain, TData&gt;">
+    <Position X="17.75" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Infra.Party.BooksRepo">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Party\BooksRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Infra.Party.CountriesRepo">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Party\CountriesRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Infra.Party.CountryCurrenciesRepo">
+    <Position X="16.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Party\CountryCurrenciesRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Infra.Party.CurrenciesRepo">
+    <Position X="19" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Party\CurrenciesRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Infra.Party.LibrariansRepo">
+    <Position X="21.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Party\LibrariansRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Infra.Party.PersonAddressesRepo">
+    <Position X="23.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Party\PersonAddressesRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Infra.Party.PersonsRepo">
+    <Position X="26.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Party\PersonsRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

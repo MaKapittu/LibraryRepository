@@ -1,0 +1,11 @@
+﻿@page
+@model HW_01_Eurich_Kapitonova.Pages.Party.CountriesPage
+@using HW_01_Eurich_Kapitonova.Pages.Extensions
+
+@{
+    Layout = "_Create";
+}
+<body>
+    @Html.MyEditorFor(x=>x.Item.ID)
+    <partial name = "_EditCountry" />
+</body>

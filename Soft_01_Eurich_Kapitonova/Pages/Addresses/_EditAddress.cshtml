@@ -1,0 +1,8 @@
+﻿@model HW_01_Eurich_Kapitonova.Pages.Party.AddressesPage
+@using HW_01_Eurich_Kapitonova.Pages.Extensions
+
+@Html.MyEditorFor(x => x.Item.Street)
+@Html.MyEditorFor(x => x.Item.City)
+@Html.MyEditorFor(x => x.Item.Region)
+@Html.MyEditorFor(x => x.Item.ZipCode)
+@Html.MyDropDownFor(x => x.Item.CountryID, Model.Countries)

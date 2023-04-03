@@ -1,0 +1,84 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Koulen&display=swap');
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: #f0ddad;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+.menuBg {
+    background: rgb(244, 227, 170,1);
+    background: -moz-linear-gradient(left, rgb(244, 227, 170,1) 0%, rgb(244, 227, 170,1) 31%, rgb(244, 227, 170,1) 51%, rgb(244, 227, 170,1) 71%, rgb(244, 227, 170,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgb(244, 227, 170,1)), color-stop(31%, rgb(244, 227, 170,1)), color-stop(51%, rgb(244, 227, 170,1)), color-stop(71%, rgb(244, 227, 170,1)), color-stop(100%, rgb(244, 227, 170,1)));
+    background: -webkit-linear-gradient(left, rgb(240, 215, 133,1) 0%, rgb(240, 215, 133,1) 31%, rgb(227, 192, 81,1) 51%, rgb(227, 192, 81,1) 71%, rgb(227, 192, 81,1) 100%);
+    background: -o-linear-gradient(left, rgb(227, 192, 81,1) 0%,rgb(227, 192, 81,1) 31%, rgb(227, 192, 81,1) 51%, rgb(199, 168, 71,1) 71%, rgb(199, 168, 71,1) 100%);
+    background: -ms-linear-gradient(left,rgb(227, 192, 81,1) 0%, rgb(227, 192, 81,1) 31%, rgb(227, 192, 81,1) 51%, rgb(199, 168, 71,1) 71%, rgb(199, 168, 71,1) 100%);
+    background: linear-gradient(to right, rgb(227, 192, 81,1) 0%, rgb(227, 192, 81,1) 31%, rgb(227, 192, 81,1) 51%, rgb(199, 168, 71,1) 71%, rgb(199, 168, 71,1) 100%);
+    color: #fff;
+}

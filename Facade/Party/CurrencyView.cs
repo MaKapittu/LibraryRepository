@@ -1,0 +1,12 @@
+﻿using HW_01_Eurich_Kapitonova.Data.Party;
+using HW_01_Eurich_Kapitonova.Domain.Party;
+
+
+namespace HW_01_Eurich_Kapitonova.Facade.Party
+{
+    public sealed class CurrencyView : IsoNamedView {  }
+    public sealed class CurrencyViewFactory : BaseViewFactory<CurrencyView, Currency, CurrencyData>
+    {
+        protected override Currency toEntity(CurrencyData d) => new(d);
+    }
+}

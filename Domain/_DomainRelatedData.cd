@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HW_01_Eurich_Kapitonova.Domain.Party.Address">
+    <Position X="17.5" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAMAAAAAAAAAAIQAAABAAIAAAAAAAA=</HashCode>
+      <FileName>Party\Address.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Domain.Party.Book">
+    <Position X="20.25" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAgAAAABAAAAA=</HashCode>
+      <FileName>Party\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Domain.Party.Country">
+    <Position X="12.5" Y="9.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAQACAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Party\Country.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Domain.Party.Currency">
+    <Position X="15.25" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Party\Currency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Domain.Party.Librarian">
+    <Position X="5.25" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAkAAAAAAAAAAEAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Party\Librarian.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Domain.Party.Person">
+    <Position X="2.25" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABIAEAAAAAAAACEAAAAAAAAAAAQAAAAAAAAAAAAACg=</HashCode>
+      <FileName>Party\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Domain.UniqueEntity&lt;TData&gt;">
+    <Position X="10.5" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAAAAABAAA=</HashCode>
+      <FileName>UniqueEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Domain.NamedEntity&lt;TData&gt;">
+    <Position X="10.75" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NamedEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Domain.Party.CountryCurrency">
+    <Position X="6.25" Y="9.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAACAIQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Party\CountryCurrency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Domain.Party.PersonAddress">
+    <Position X="9.5" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Party\PersonAddress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Domain.GetRepo">
+    <Position X="13.75" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAQEAAAAAAAAA=</HashCode>
+      <FileName>GetRepo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Domain.UniqueEntity">
+    <Position X="11" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgCAAAAAAAAAAAAAAAAAQAAAAEAABEAA=</HashCode>
+      <FileName>UniqueEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

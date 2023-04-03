@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HW_01_Eurich_Kapitonova.Tests.BaseTests&lt;TClass, TBaseClass&gt;">
+    <Position X="6.5" Y="15.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIABAAAAABIAABAACAABABAAAAIAESAAQIAgAAACA=</HashCode>
+      <FileName>BaseTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Tests.TypeTests">
+    <Position X="6.5" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gABIAkgAAAAIABCAiAAA0AAQAYApAwCABAEEAAAgAAA=</HashCode>
+      <FileName>TypeTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Tests.HostTests">
+    <Position X="7" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAACAQKAAAAAAAAAQAAgABAAAAAI=</HashCode>
+      <FileName>HostTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Tests.TestAsserts">
+    <Position X="8.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAABQAAAMAAAAABAACAAAAQAAAACAAAAAA=</HashCode>
+      <FileName>TestAsserts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Tests.AbstractClassTests&lt;TClass, TBaseClass&gt;">
+    <Position X="2" Y="21" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractClassTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Tests.SealedBaseTests&lt;TClass, TBaseClass&gt;">
+    <Position X="8.25" Y="21" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SealedClassTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Tests.Infra.Party.SealedRepoTests&lt;TClass, TBaseClass, TDomain, TData&gt;">
+    <Position X="10" Y="23.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEEAAAAAAAAQCQAAAABAAAAIAAgAAAAAAQAA=</HashCode>
+      <FileName>Infra\Party\SealedRepoTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Tests.SealedClassTests&lt;TClass, TBaseClass&gt;">
+    <Position X="5.75" Y="23.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>SealedClassTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Tests.AssemblyTests">
+    <Position X="12" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gABIAcgIAAECAFCgGAQBwCAAAIApAQAwAAAEIIAgCAA=</HashCode>
+      <FileName>AssemblyTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Tests.TestHost&lt;TProgram&gt;">
+    <Position X="11.75" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAIAAAAAAAEAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>TestHost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

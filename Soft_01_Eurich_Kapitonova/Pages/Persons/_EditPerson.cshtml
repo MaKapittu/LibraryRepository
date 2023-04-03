@@ -1,0 +1,8 @@
+﻿@using HW_01_Eurich_Kapitonova.Pages.Extensions
+@model HW_01_Eurich_Kapitonova.Pages.Party.PersonsPage
+
+    @Html.MyEditorFor(x=>x.Item.FirstName)
+    @Html.MyEditorFor(x=>x.Item.LastName)
+    @Html.MyEditorFor(x=>x.Item.DateOfBirth)
+    @Html.MyEditorFor(x=>x.Item.RentedBooksAmount)
+    @Html.MyDropDownFor(x => x.Item.Gender, Model.Genders)

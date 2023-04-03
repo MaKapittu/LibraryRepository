@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>$(SolutionName.Replace(" ", "_")).$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <AssemblyName>$(SolutionName.Replace(" ", "_")).$(MSBuildProjectName)</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="..\Soft_01_Eurich_Kapitonova\appsettings.json" Link="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SolrNet.Core" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>

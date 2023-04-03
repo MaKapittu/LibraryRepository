@@ -1,0 +1,8 @@
+﻿@model HW_01_Eurich_Kapitonova.Pages.Party.PersonAddressesPage
+@using HW_01_Eurich_Kapitonova.Pages.Extensions
+
+@Html.MyDropDownFor(x => x.Item.PersonID, Model.Persons)
+@Html.MyDropDownFor(x => x.Item.AddressID, Model.Addresses)
+@Html.MyEditorFor(x => x.Item.Name)
+@Html.MyEditorFor(x => x.Item.Code)
+@Html.MyEditorFor(x => x.Item.Description)

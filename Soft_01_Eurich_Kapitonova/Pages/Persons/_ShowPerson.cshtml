@@ -1,0 +1,8 @@
+﻿@using HW_01_Eurich_Kapitonova.Pages.Extensions
+@model HW_01_Eurich_Kapitonova.Pages.Party.PersonsPage
+
+@Html.MyViewerFor(x=>x.Item.FirstName)
+@Html.MyViewerFor(x=>x.Item.LastName)
+@Html.MyViewerFor(x=>x.Item.DateOfBirth)
+@Html.MyViewerFor(x=>x.Item.RentedBooksAmount)
+@Html.MyViewerFor(x => x.Item.Gender, Model.GenderDescription(Model.Item.Gender))

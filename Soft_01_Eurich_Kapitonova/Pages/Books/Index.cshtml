@@ -1,0 +1,104 @@
+﻿@page
+@model HW_01_Eurich_Kapitonova.Pages.Party.BooksPage
+@using HW_01_Eurich_Kapitonova.Pages.Extensions
+
+@{
+    ViewData["Title"] = "Books";
+   var firstDisabled = (Model.PageIndex != 0) ? "": "disabled" ;
+    var prevDisabled = (Model.HasPreviousPage) ? "": "disabled";
+    var nextDisabled = (Model.HasNextPage) ? "": "disabled";
+    var lastDisabled = (Model.PageIndex != Model?.TotalPages - 1) ? "": "disabled";
+    var showMessage = $"Page {Model?.PageIndex+1} of total {Model?.TotalPages - 1} pages";
+}
+
+<h1>@ViewData["Title"]</h1>
+<p>
+    <a class="btn btn-success m-1 buttonShadow" asp-page="./Create" asp-page-handler="Create"
+       asp-route-order="@Model?.CurrentOrder"
+       asp-route-index="@Model?.PageIndex"
+       asp-route-filter="@Model?.CurrentFilter">
+       Add
+    </a>
+</p>
+<form method="get"
+      asp-page="Index"
+      asp-route-index="@Model?.PageIndex"
+      asp-route-order="@Model?.CurrentOrder"  
+>
+    <input type = "hidden" name = "handler" value = "Index" />
+
+    <div class="form-actions no-color">
+        <p>
+            Find by name: &nbsp
+            <input type="text" name="filter" value="@Model?.CurrentFilter" /> &nbsp
+            <input type="submit" value="Search" class="btn btn-primary" /> &nbsp
+            <a style="text-decoration:none" asp-page="Index"
+               asp-page-handler="Index"
+               asp-route-order="@Model?.CurrentOrder"
+               asp-route-index="@Model?.PageIndex"
+               asp-route-filter=""
+            >Back to full List</a>
+        </p>
+    </div>
+</form>
+
+
+<div class="row">
+    @foreach (var item in Model?.Items) 
+    {
+        var photoPath = $"/images/{item.PhotoPath ?? "NoImages.jpg"}";
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card-deck">
+                <div class="card m-3 cardBoxShadow">
+                    <div class="card-header text-center cardHeaderStyle">
+                        <h3>@item.BookName</h3>
+                    </div>
+                    <div class="text-center cardBodyStyle">
+                        <img class="card-img-top imageThumbnail" src="@photoPath" asp-append-version="true" />
+                    </div>
+                    <div class="card-footer text-center">
+                        <a class="btn btn-info m-1 buttonShadow" asp-page="./Details" asp-page-handler="Details" asp-route-id="@item.ID">View</a>
+                        <a class="btn btn-secondary m-1 buttonShadow" asp-page="./Edit" asp-page-handler="Edit" asp-route-id="@item.ID">Edit</a>
+                        <a class="btn btn-danger m-1 buttonShadow" asp-page="./Delete" asp-page-handler="Delete" asp-route-id="@item.ID">Delete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<div>
+    <a asp-page="Index"
+       asp-page-handler="Index"
+       asp-route-order="@Model.CurrentOrder"
+       asp-route-idx="0"
+       asp-route-filter="@Model.CurrentFilter"
+       class="btn btn-primary @firstDisabled">
+        First
+    </a>&nbsp
+    <a asp-page="Index"
+       asp-page-handler="Index"
+       asp-route-order="@Model.CurrentOrder"
+       asp-route-idx="@(Model.PageIndex - 1)"
+       asp-route-filter="@Model.CurrentFilter"
+       class="btn btn-primary @prevDisabled">
+        Previous
+    </a>&nbsp;
+    @showMessage
+    &nbsp;
+    <a asp-page="Index"
+       asp-page-handler="Index"
+       asp-route-order="@Model.CurrentOrder"
+       asp-route-idx="@(Model.PageIndex + 1)"
+       asp-route-filter="@Model.CurrentFilter"
+       class="btn btn-primary @nextDisabled">
+        Next
+    </a>&nbsp
+    <a asp-page="Index"
+       asp-page-handler="Index"
+       asp-route-order="@Model.CurrentOrder"
+       asp-route-idx="@(Model.TotalPages - 1)"
+       asp-route-filter="@Model.CurrentFilter"
+       class="btn btn-primary @lastDisabled">
+        Last
+    </a>&nbsp
+</div>

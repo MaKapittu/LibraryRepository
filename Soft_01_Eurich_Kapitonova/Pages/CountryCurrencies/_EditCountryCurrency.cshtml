@@ -1,0 +1,8 @@
+﻿@model HW_01_Eurich_Kapitonova.Pages.Party.CountryCurrenciesPage
+@using HW_01_Eurich_Kapitonova.Pages.Extensions
+
+@Html.MyDropDownFor(x => x.Item.CountryID, Model.Countries)
+@Html.MyDropDownFor(x => x.Item.CurrencyID, Model.Currencies)
+@Html.MyEditorFor(x => x.Item.Name)
+@Html.MyEditorFor(x => x.Item.Code)
+@Html.MyEditorFor(x => x.Item.Description)

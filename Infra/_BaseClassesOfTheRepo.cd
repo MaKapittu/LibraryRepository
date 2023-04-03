@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HW_01_Eurich_Kapitonova.Infra.Repo&lt;TDomain, TData&gt;">
+    <Position X="1" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Infra.PagedRepo&lt;TDomain, TData&gt;">
+    <Position X="4.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAgAACAAABEAAAAAAEACUAAAAAAAAAAAAEABAAAI=</HashCode>
+      <FileName>PagedRepo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Infra.OrderedRepo&lt;TDomain, TData&gt;">
+    <Position X="7" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAABAEAAAAAAABAAACAQAAAAAAkAAAAAAAAAAJAAAA=</HashCode>
+      <FileName>OrderedRepo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Infra.FilteredRepo&lt;TDomain, TData&gt;">
+    <Position X="10.5" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>FilteredRepo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Infra.CrudRepo&lt;TDomain, TData&gt;">
+    <Position X="7.25" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAABAAAAAAAEAgBEAAAgAAgAAIABAAIA=</HashCode>
+      <FileName>CrudRepo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_01_Eurich_Kapitonova.Infra.BaseRepo&lt;TDomain, TData&gt;">
+    <Position X="10.75" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEYAAAAAAAAQAABAAAQAAAEAAAEAAAgAAgAAIAAAAIA=</HashCode>
+      <FileName>BaseRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
