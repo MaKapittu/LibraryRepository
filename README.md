@@ -1,7 +1,6 @@
 # LibraryRepository
-Project made with Razor Pages
 
-To open the project you need to:
+How to open a project on windows 10 and visual studio 2022:
 
 1.Clone it to your computer via zip or link
 
